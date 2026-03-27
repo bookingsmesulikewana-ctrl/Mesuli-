@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Booking Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .button {
+            padding: 10px 20px;
+            background: #35424a;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #48a1f0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #35424a;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Booking System</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>Book Your Appointment</h2>
+            <p>Click the button below to start your booking.</p>
+            <button class="button" onclick="alert('Booking Started!')">Start Booking</button>
+        </div>
+        <div class="card">
+            <h2>Special Offers</h2>
+            <p>Check out our latest offers to save big!</p>
+            <button class="button" onclick="alert('Offers Available!')">View Offers</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Booking System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
